@@ -6,7 +6,7 @@ int main(void) {
     cout << "|q p|   /}" << endl;
     cout << "( 0 )\"\"\"\\" << endl;
     cout << "|\"^\"`    |" << endl;
-    cout << "||_/=\\\\__|" << endl;
+    cout << "||_/=\\\\__|";
 
     return 0;
 }

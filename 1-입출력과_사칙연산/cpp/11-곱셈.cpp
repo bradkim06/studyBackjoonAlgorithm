@@ -2,6 +2,9 @@
 
 using namespace std;
 
+#define NO_ERROR 0
+#define INVALID_RANGE -1
+
 int main(void) {
     int num1, num2;
     int remain[3];
@@ -9,12 +12,14 @@ int main(void) {
 
     cin >> num1 >> num2;
 
-    if (num1 > 999) {
-        num1 = num1 % 1000;
+    if (num1 < 100 || num1 > 999) {
+        cout << "Invalid Range";
+        return INVALID_RANGE;
     }
 
-    if (num2 > 999) {
-        num2 = num2 % 1000;
+    if (num2 < 100 || num2 > 999) {
+        cout << "Invalid Range";
+        return INVALID_RANGE;
     }
 
     remain[0] = num2 % 10;
