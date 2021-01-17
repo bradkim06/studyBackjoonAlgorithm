@@ -1,4 +1,4 @@
-# 1단계-입출력과 사칙연산을 진행하며 검색한 내용들
+# 1단계-입출력과 사칙연산
 
 ## Table of Contents
 
@@ -78,4 +78,4 @@ C에서 \n(newLine)과 같은 역할을 한다.
 
 #### etc
 
-> [using namespace 사용을 지양해야 하는가?](https://hashcode.co.kr/questions/80/%EC%99%9C-using-namespace-std%EB%A5%BC-%EC%93%B0%EC%A7%80-%EB%A7%90%EB%9D%BC%EB%8A%94%EA%B1%B0%EC%97%90%EC%9A%94)
+> [using namespace 사용을 지양해야 하는가?](https://sexycoder.tistory.com/16)
