@@ -21,3 +21,4 @@
 
 1. [입출력과
 사칙연산](https://github.com/bradkim06/studyBackjoonAlgorithm/tree/main/1-입출력과_사칙연산)
+2. [if문](./2-if문)
